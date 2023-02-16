@@ -1,0 +1,51 @@
+#bottom_navigation {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#home {
+    /* Text Styling */
+    color: white;
+    font-size: medium;
+    font-variant: small-caps;
+
+    /* Button Styling */
+    background-color: cornflowerblue;
+    margin-right: 1px;
+}
+
+#units {
+    /* Text Styling */
+    color: white;
+    font-size: medium;
+    font-variant: small-caps;
+
+    /* Button Styling */
+    background-color:slateblue;
+    margin-right: 1px;
+}
+
+#equipment {
+    /* Text Styling */
+    color: white;
+    font-size: medium;
+    font-variant: small-caps;
+    z-index: 10;
+
+    /* Button Styling */
+    background-color: indigo;
+    margin-right: 1px;
+}
+
+#crests {
+    /* Text Styling */
+    color: white;
+    font-size: medium;
+    font-variant: small-caps;
+    z-index: 10;
+
+    /* Button Styling */
+    background-color: rgb(0, 133, 99);
+    margin-right: 1px;
+}

@@ -1,0 +1,47 @@
+/*  html, body affects the HTML background
+    which by default is white           */
+#html {
+    
+    height: 100%;
+    width: 100%;
+
+}
+
+/*  bgimage affects the bg.jpg image 
+    in the assets folder          */
+#bgimage {
+    height: 100%;
+    width: 100%;
+    opacity: 100%;
+    position: absolute;
+}
+
+/*  button_wrapper affects the postion
+    of "homebutton"                 */
+#button_wrapper {
+    text-align: center;
+}
+
+/*  homebutton affects the attributes of the 
+    button which takes the user from the
+    welcome view to the home view         */
+#homebutton {
+    position: absolute; 
+    background-image: linear-gradient(to right, #0680e1 0%, #02236f 51%, #22007e 100%);
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 25px 100px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    box-shadow: 0 0 25px #eee;
+    border-radius: 8px;
+    
+}
+
+#homebutton:hover {
+    background-position: right center;
+}
