@@ -1,5 +1,11 @@
-#headercontainer {
+#headerContainer {
+    display: flex;
     background-image: linear-gradient(to right, #63b9ff 0%, #2b6aff 51%, #0021b6 100%);
+}
+
+
+#headerSearchBar {
+    margin-left: auto;
 }
 
 #spacer {
