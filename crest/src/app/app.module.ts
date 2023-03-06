@@ -29,6 +29,8 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSelectModule } from '@angular/material/select';
 import { MatInputModule } from '@angular/material/input';
+import {MatTabsModule} from '@angular/material/tabs';
+import { TabsearchComponent } from './tabsearch/tabsearch.component';
 
 
 
@@ -46,6 +48,7 @@ import { MatInputModule } from '@angular/material/input';
     WelcomescreenComponent,
     SearchBarComponent,
     HeaderContainerComponent,
+    TabsearchComponent,
   ],
   imports: [
     MatInputModule,
@@ -60,6 +63,7 @@ import { MatInputModule } from '@angular/material/input';
     MatMenuModule,
     MatToolbarModule,
     MatSelectModule,
+    MatTabsModule,
   ],
   exports: [
   ],
